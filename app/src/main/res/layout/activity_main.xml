@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/INFO_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/name"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/INFO_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/imei"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/ACTION_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/action" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/image1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="296dp"-->
+    <!--        android:src="@drawable/sim_card" />-->
+
+</LinearLayout>
